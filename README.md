@@ -3,7 +3,7 @@
 
 Todas as vezes que o usuário recarregar a página irá mostrar um versículo de forma aleatória.
 
-Esses versículo vem que uma API - (https://github.com/marciovsena/abibliadigital), uma API bem completa com uma boa variação de traduções da Biblia.
+Esses versículo vem que uma API - https://github.com/marciovsena/abibliadigital, uma API bem completa com uma boa variação de traduções da Biblia.
 ## Stack utilizada
 
 **Front-end:** HTML, CSS, JAVASCRIPT
