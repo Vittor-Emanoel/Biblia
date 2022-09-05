@@ -6,7 +6,7 @@ const livros = document.querySelector(".livro-nome");
 const capitulo = document.querySelector(".capitulo-number");
 const versiculo = document.querySelector(".versiculo-number");
 
-async function getBooks() {
+async function getDados() {
   const header = {
     Authorization: `Bearer ${Token}`,
   };
@@ -30,14 +30,9 @@ async function getBooks() {
       livros.textContent += livroName;
       capitulo.textContent += capituloNum;
       versiculo.textContent += versiculoNum;
-
-      console.log(data);
-      console.log(textoBiblico);
-      console.log(capituloNum);
-      console.log(versiculoNum);
     })
     .catch((error) => {
       error.log(error);
     });
 }
-getBooks();
+getDados();
